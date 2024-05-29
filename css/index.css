@@ -1,0 +1,94 @@
+body {
+  background-color: rgba(157, 184, 180, 0.746);
+  font-family: Century gothic;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+}
+header nav {
+  height: 50%;
+  width: 100%;
+  padding: 5px;
+}
+header nav img {
+  height: 60%;
+  width: 60%;
+}
+header nav ul {
+  background-color: rgba(255, 255, 255, 0.799);
+  font-size: x-large;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+header nav ul li {
+  text-align: center;
+  width: 20%;
+  margin: auto;
+  padding: auto;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(186, 106, 223);
+}
+header nav ul li a:hover {
+  color: rgb(111, 189, 162);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin: 10%;
+  padding: 50px;
+}
+main h1 {
+  text-align: left;
+}
+
+@keyframes movimiento {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.banner_img {
+  animation: movimiento 2.5s linear infinite;
+}
+
+.banner_img img {
+  width: 600px;
+  display: block;
+  padding: 20px;
+}
+
+.banner_title {
+  margin-top: 60px;
+  color: #2d302f;
+  font-weight: 900;
+  margin-bottom: 20px;
+  margin: 10px;
+  padding: 15px;
+  font: 100% Century gothic;
+  font-size: 90px;
+}
+
+footer {
+  font: 100% Century gothic;
+  font-size: 20px;
+  font-weight: 800;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */
