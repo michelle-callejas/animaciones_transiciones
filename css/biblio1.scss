@@ -1,9 +1,9 @@
 $font-stack: Century gothic;
-$primary-color: rgb(111, 189, 162);
+$primary-color: rgb(180, 201, 194);
 $secondary-color: rgb(186, 106, 223);
 
 body {
-    background-color: rgba(157, 184, 180, 0.746);
+    background-color: rgba(220, 208, 117, 0.746);
     font-family: $font-stack;
 }
 
@@ -52,56 +52,35 @@ header {
     }
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    margin: 10%;
-    padding: 50px;
-
-    h1 {
-        text-align: left;
-    }
-}
-
-@keyframes movimiento {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(30px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-}
-
-.banner_img {
-    animation: movimiento 2.5s linear infinite;
-}
-
-.banner_img img {
-    width: 600px;
-    display: block;
-    padding: 20px
-}
-
-.banner_title {
-    margin-top: 60px;
-    color: #2d302f;
-    font-weight: 900;
-    margin-bottom: 20px;
-    margin: 10px;
-    padding: 15px;
-    font: 100% $font-stack;
-    font-size: 90px;
-}
-
 footer {
+    color: white;
     font: 100% $font-stack;
     font-size: 20px;
     font-weight: 800;
     justify-content: space-around;
     text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+$ancho: calc(100%/2);
+
+td {
+    width: $ancho;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+tr {
+    width: 100%;
 }

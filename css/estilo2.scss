@@ -1,75 +1,141 @@
 body {
-    background-color: rgba(157, 184, 180, 0.746);
-    font-family: Century gothic;
-  }
-  
-  header {
-    width: 100%;
-    height: 50px;
-  }
-  header nav {
-    height: 50%;
-    width: 100%;
-    padding: 5px;
-  }
-  header nav img {
-    height: 60%;
-    width: 60%;
-  }
-  header nav ul {
-    background-color: rgba(255, 255, 255, 0.799);
-    font-size: x-large;
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-  header nav ul li {
-    text-align: center;
-    width: 20%;
-    margin: auto;
-    padding: auto;
-  }
-  header nav ul li a {
-    text-decoration: none;
-    color: rgb(186, 106, 223);
-  }
-  header nav ul li a:hover {
-    color: rgb(111, 189, 162);
-  }
-  
-  footer {
-    font: 100% Century gothic;
-    font-size: 20px;
-    font-weight: 800;
-    justify-content: space-around;
-    text-align: center;
-  }
-  
-  .train {
-    position: relative;
-    cursor: pointer;
-    width: 500px;
-    height: 160px;
-    left: 100px;
-    transition: left 5s cubic-bezier(0.5, -1, 0.5, 0);
-  }
-  
-  .estacion {
-    width: 25%;
-  }
-  
-  .estacion img {
-    height: 500px;
-    width: 300px;
-  }
-  
-  table {
-    width: 100%;
-  }
-  
-  /*# sourceMappingURL=estilo1.css.map */
-  
+  background-color: rgba(222, 136, 223, 0.539);
+  font-family: Century gothic;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+}
+
+header nav {
+  height: 50%;
+  width: 100%;
+  padding: 5px;
+}
+
+header nav img {
+  height: 60%;
+  width: 60%;
+}
+
+header nav ul {
+  background-color: rgba(255, 255, 255, 0.799);
+  font-size: x-large;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+header nav ul li {
+  text-align: center;
+  width: 20%;
+  margin: auto;
+  padding: auto;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(186, 106, 223);
+}
+
+header nav ul li a:hover {
+  color: rgb(111, 189, 162);
+}
+
+footer {
+  font: 100% Century gothic;
+  font-size: 20px;
+  font-weight: 800;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.train {
+  position: relative;
+  cursor: pointer;
+  width: 500px;
+  height: 160px;
+  left: 100px;
+  transition: left 5s cubic-bezier(0.5, -1, 0.5, 0);
+}
+
+.estacion {
+  width: 25%;
+}
+
+.estacion img {
+  height: 500px;
+  width: 300px;
+}
+
+table {
+  width: 100%;
+}
+
+main {
+  margin: 10px;
+  padding: 50px;
+}
+
+.titulo {
+  padding: 20px;
+  margin: 20px;
+  font-size: 40px;
+  color: rgb(8, 8, 8);
+  text-align: center;
+}
+
+
+
+.trapecio {
+  width: 250px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 100px solid #ac7ebc;
+  background: #ac7ebc;
+  transition: width 10s;
+}
+
+.trapecio-top {
+  width: 250px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-top: 100px solid #428bca;
+}
+
+.trapecio:hover {
+  width: 100%;
+}
+
+
+.imagen {
+  margin: 15px;
+  padding: 15px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: white;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.imagen:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+.imagen img {
+  width: 100px;
+  height: 100px;
+}
+
+th {
+  text-align: left;
+}

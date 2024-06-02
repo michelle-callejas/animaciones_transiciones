@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(157, 184, 180, 0.746);
+  background-color: rgba(222, 136, 223, 0.539);
   font-family: Century gothic;
 }
 
@@ -77,6 +77,64 @@ table {
   width: 100%;
 }
 
+main {
+  margin: 10px;
+  padding: 20px;
+}
 
+.titulo {
+  padding: 20px;
+  margin: 20px;
+  font-size: 40px;
+  color: rgb(8, 8, 8);
+  text-align: center;
+}
 
-/*# sourceMappingURL=estilo2.csss.map */
+.trapecio {
+  width: 250px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 100px solid #ac7ebc;
+  background: #ac7ebc;
+  transition: width 10s;
+}
+
+.trapecio-top {
+  width: 250px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-top: 100px solid #428bca;
+}
+
+.trapecio:hover {
+  width: 100%;
+}
+
+.imagen {
+  margin: 15px;
+  padding: 15px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: white;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.imagen:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+.imagen img {
+  width: 100px;
+  height: 100px;
+}
+
+th {
+  text-align: left;
+}
+
+/*# sourceMappingURL=estilo2.css.map */
